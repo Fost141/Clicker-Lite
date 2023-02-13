@@ -64,4 +64,23 @@ body {
     color: yellow;
 }
 
+/* Media */
+@media(max-width: 700px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .next_level {
+        margin-top: 50px;
+    }
+
+    #start {
+        padding-top: 11110px;
+    }
+
+    .clicker {
+        margin: 10px;
+    }
+}
+
 
